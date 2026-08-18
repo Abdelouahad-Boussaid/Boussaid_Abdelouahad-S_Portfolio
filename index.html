@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Boussaid Abdelouahad — Computer Science Engineering Student and Full-Stack & Mobile Developer."
+    />
+    <link rel="icon" type="image/png" href="/assets/images/portraitPhoto.png" />
+
+    <meta
+      name="keywords"
+      content="Boussaid Abdelouahad, Full-Stack & Mobile Developer, React, React Native, Node.js, MongoDB, Algeria"
+    />
+    <meta name="author" content="Boussaid Abdelouahad" />
+    <title>Boussaid Abdelouahad | Full-Stack & Mobile Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Boussaid Abdelouahad home">
+        <span class="brand-mark">BA</span>
+        <span>Boussaid Abdelouahad</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#skills" data-i18n="nav.skills">Skills</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="#education" data-i18n="nav.education">Education</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="header-controls">
+        <button class="theme-toggle" type="button" aria-label="Toggle theme">
+          <i class="bi bi-sun-fill"></i>
+        </button>
+        <label class="lang-picker" aria-label="Language selector">
+          <i class="bi bi-globe2"></i>
+          <select class="lang-switch" aria-label="Select language">
+            <option value="en">🇬🇧 EN</option>
+            <option value="fr">🇫🇷 FR</option>
+            <option value="ar">🇦🇪 AR</option>
+          </select>
+        </label>
+      </div>
+      <a
+        class="header-cta"
+        href="mailto:bssdabdou2@gmail.com"
+        data-i18n="header.cta"
+        >Let's talk <i class="bi bi-arrow-up-right"></i
+      ></a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <i class="bi bi-list"></i>
+      </button>
+    </header>
+
+    <div class="mobile-menu">
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#skills" data-i18n="nav.skills">Skills</a>
+      <a href="#projects" data-i18n="nav.projects">Projects</a>
+      <a href="#education" data-i18n="nav.education">Education</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+      <div class="mobile-tools">
+        <button
+          class="theme-toggle mobile-theme-toggle"
+          type="button"
+          aria-label="Toggle theme"
+        >
+          <i class="bi bi-sun-fill"></i>
+        </button>
+        <label
+          class="lang-picker mobile-lang-picker"
+          aria-label="Language selector"
+        >
+          <i class="bi bi-globe2"></i>
+          <select class="lang-switch" aria-label="Select language">
+            <option value="en">🇬🇧 EN</option>
+            <option value="fr">🇫🇷 FR</option>
+            <option value="ar">🇦🇪 AR</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <main>
+      <section id="home" class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot"></span>
+            <span data-i18n="hero.available">Available for opportunities</span>
+          </p>
+          <h1>
+            <span data-i18n="hero.titleStart">Building</span>
+            <span data-i18n="hero.titleHighlight">useful software</span>
+            <span data-i18n="hero.titleEnd">from idea to production.</span>
+          </h1>
+          <p class="hero-role">
+            <span data-i18n="hero.roleLine1"
+              >Computer Science Engineering Student</span
+            >
+            <span>·</span>
+            <span data-i18n="hero.roleLine2"
+              >Full-Stack &amp; Mobile Developer</span
+            >
+          </p>
+          <p class="hero-text" data-i18n="hero.text">
+            I build web and mobile applications with React, React Native,
+            Node.js and MongoDB, with a strong focus on authentication, APIs,
+            clean architecture and maintainable code.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects"
+              ><span data-i18n="hero.viewWork">View my work</span>
+              <i class="bi bi-arrow-down-right"></i
+            ></a>
+            <a
+              class="btn btn-secondary"
+              href="https://github.com/Abdelouahad-Boussaid"
+              target="_blank"
+              rel="noopener"
+              >GitHub <i class="bi bi-github"></i
+            ></a>
+          </div>
+          <div class="hero-meta">
+            <span
+              ><i class="bi bi-geo-alt"></i>
+              <span data-i18n="hero.location">Algiers, Algeria</span></span
+            >
+            <span><i class="bi bi-envelope"></i> bssdabdou2@gmail.com</span>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="portrait-shell">
+            <div class="portrait-glow"></div>
+            <div class="portrait-frame">
+              <img
+                src="assets/images/portfolioImage.png"
+                alt="Portrait of Boussaid Abdelouahad"
+              />
+            </div>
+            <div class="mini-profile-card">
+              <span class="mini-label" data-i18n="hero.badge">Developer</span>
+              <strong data-i18n="hero.badgeRole"
+                >Full-Stack &amp; Mobile</strong
+              >
+            </div>
+          </div>
+          <div class="floating-tech tech-two">
+            <div>React | React Native</div>
+            <div style="text-align: center">MongoDB</div>
+          </div>
+          <div class="floating-tech tech-one">Node.js | Express.js</div>
+        </div>
+      </section>
+
+      <section id="about" class="section-shell section">
+        <div class="section-heading">
+          <p class="eyebrow">01 / <span data-i18n="about.label">About</span></p>
+          <h2>
+            <span data-i18n="about.title">Engineering mindset,</span>
+            <span data-i18n="about.titleHighlight">practical results.</span>
+          </h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-lead">
+            <p data-i18n="about.p1">
+              I'm a Computer Science Engineering student and Full-Stack
+              Developer experienced in building web and mobile applications.
+            </p>
+            <p data-i18n="about.p2">
+              My work combines frontend and mobile development with backend
+              engineering, database design, authentication, OTP verification,
+              caching and REST APIs. I enjoy turning requirements into clear,
+              reliable software.
+            </p>
+          </div>
+          <div class="about-facts">
+            <div>
+              <span data-i18n="about.locationLabel">Location</span
+              ><strong data-i18n="about.location">Algiers, Algeria</strong>
+            </div>
+            <div>
+              <span data-i18n="about.educationLabel">Education</span
+              ><strong data-i18n="about.education"
+                >Computer Science Engineering</strong
+              >
+            </div>
+            <div>
+              <span data-i18n="about.languagesLabel">Languages</span
+              ><strong data-i18n="about.languages"
+                >Arabic · French · English</strong
+              >
+            </div>
+            <div>
+              <span data-i18n="about.focusLabel">Current focus</span
+              ><strong data-i18n="about.focus"
+                >Full-Stack &amp; Mobile Development</strong
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section-shell section tinted">
+        <div class="section-heading">
+          <p class="eyebrow">
+            02 / <span data-i18n="skills.label">Skills</span>
+          </p>
+          <h2>
+            <span data-i18n="skills.title">A stack built for</span>
+            <span data-i18n="skills.titleHighlight">real applications.</span>
+          </h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon"><i class="bi bi-window-stack"></i></div>
+            <h3 data-i18n="skills.frontendTitle">Frontend &amp; Mobile</h3>
+            <p data-i18n="skills.frontendText">
+              React.js, React Native, Expo, HTML5 and CSS3.
+            </p>
+            <div class="chips">
+              <span>React</span><span>React Native</span><span>Expo</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon"><i class="bi bi-server"></i></div>
+            <h3 data-i18n="skills.backendTitle">Backend &amp; APIs</h3>
+            <p data-i18n="skills.backendText">
+              Node.js, Express.js, REST APIs and JWT authentication.
+            </p>
+            <div class="chips">
+              <span>Node.js</span><span>Express</span><span>REST</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon"><i class="bi bi-database"></i></div>
+            <h3 data-i18n="skills.dbTitle">Databases</h3>
+            <p data-i18n="skills.dbText">
+              MongoDB, Mongoose and Firebase Firestore for data-driven
+              applications.
+            </p>
+            <div class="chips">
+              <span>MongoDB</span><span>Mongoose</span><span>Firestore</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon"><i class="bi bi-shield-lock"></i></div>
+            <h3 data-i18n="skills.authTitle">Auth &amp; Cloud</h3>
+            <p data-i18n="skills.authText">
+              JWT, Redis, Twilio and Firebase Authentication.
+            </p>
+            <div class="chips">
+              <span>JWT</span><span>Redis</span><span>Twilio</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon"><i class="bi bi-tools"></i></div>
+            <h3 data-i18n="skills.toolsTitle">Developer Tools</h3>
+            <p data-i18n="skills.toolsText">
+              Git, GitHub, Postman, VS Code and Linux.
+            </p>
+            <div class="chips">
+              <span>Git</span><span>GitHub</span><span>Postman</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon"><i class="bi bi-code-slash"></i></div>
+            <h3 data-i18n="skills.langTitle">Languages</h3>
+            <p data-i18n="skills.langText">
+              JavaScript, TypeScript and C with a strong software engineering
+              foundation.
+            </p>
+            <div class="chips">
+              <span>JavaScript</span><span>TypeScript</span><span>C</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section-shell section">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">
+              03 / <span data-i18n="projects.label">Featured project</span>
+            </p>
+            <h2>
+              <span data-i18n="projects.title">One project,</span>
+              <span data-i18n="projects.titleHighlight">built end-to-end.</span>
+            </h2>
+          </div>
+          <span class="project-status" data-i18n="projects.status"
+            >In development</span
+          >
+        </div>
+        <article class="project-feature">
+          <div class="project-visual">
+            <div class="phone-mockup">
+              <div class="phone-notch"></div>
+              <div class="phone-screen">
+                <div class="mini-top">
+                  <span>LOTOTY</span><i class="bi bi-bell"></i>
+                </div>
+                <div class="mini-title" data-i18n="projects.phoneTitle">
+                  My vehicles
+                </div>
+                <div class="mini-car-card">
+                  <div class="mini-car-art">
+                    <i class="bi bi-car-front-fill"></i>
+                  </div>
+                  <div>
+                    <strong>My Car</strong
+                    ><small data-i18n="projects.phoneSub"
+                      >Maintenance tracking</small
+                    >
+                  </div>
+                </div>
+                <div class="mini-stat">
+                  <span data-i18n="projects.maintenance">Maintenance</span
+                  ><strong data-i18n="projects.upToDate">Up to date</strong>
+                </div>
+                <div class="mini-bars"><i></i><i></i><i></i><i></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <p class="project-kicker">
+              LOTOTY ·
+              <span data-i18n="projects.kicker"
+                >Car Maintenance &amp; Management</span
+              >
+            </p>
+            <h3 data-i18n="projects.heading">
+              A mobile companion for smarter vehicle ownership.
+            </h3>
+            <p data-i18n="projects.description">
+              LOTOTY is a mobile application designed to help car owners manage
+              vehicles, maintenance records, service schedules and reminders.
+            </p>
+            <ul class="project-points">
+              <li>
+                <i class="bi bi-check2"></i>
+                <span data-i18n="projects.point1"
+                  >RESTful backend with Node.js and Express.js</span
+                >
+              </li>
+              <li>
+                <i class="bi bi-check2"></i>
+                <span data-i18n="projects.point2"
+                  >JWT authentication and protected API routes</span
+                >
+              </li>
+              <li>
+                <i class="bi bi-check2"></i>
+                <span data-i18n="projects.point3"
+                  >OTP verification using Twilio</span
+                >
+              </li>
+              <li>
+                <i class="bi bi-check2"></i>
+                <span data-i18n="projects.point4"
+                  >MongoDB/Mongoose database architecture</span
+                >
+              </li>
+              <li>
+                <i class="bi bi-check2"></i>
+                <span data-i18n="projects.point5"
+                  >Controllers, routes, models, middleware and services</span
+                >
+              </li>
+            </ul>
+            <div class="project-stack">
+              <span>React Native</span><span>Expo</span><span>Node.js</span
+              ><span>Express.js</span><span>MongoDB</span><span>Redis</span
+              ><span>Twilio</span>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="education" class="section-shell section tinted">
+        <div class="section-heading">
+          <p class="eyebrow">
+            04 / <span data-i18n="education.label">Education</span>
+          </p>
+          <h2>
+            <span data-i18n="education.title">Growing through</span>
+            <span data-i18n="education.titleHighlight">engineering.</span>
+          </h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2026 — Present</div>
+            <div>
+              <h3>École Militaire Polytechnique (EMP)</h3>
+              <p data-i18n="education.emp">
+                Engineering Studies in Computer Science · Algeria
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2023 — 2026</div>
+            <div>
+              <h3>
+                École Nationale Préparatoire Aux Études d’Ingéniorat (ENPEI)
+              </h3>
+              <p data-i18n="education.enpei">
+                Diplôme du Premier Cycle des Études d’Ingéniorat in Computer
+                Science · Rouiba, Algiers
+              </p>
+            </div>
+          </article>
+        </div>
+        <div class="languages-row">
+          <span
+            ><b>Arabic</b>
+            <span data-i18n="education.arabic">Native</span></span
+          >
+          <span
+            ><b>French</b>
+            <span data-i18n="education.french">Upper-Intermediate</span></span
+          >
+          <span
+            ><b>English</b>
+            <span data-i18n="education.english">Intermediate</span></span
+          >
+        </div>
+      </section>
+
+      <section id="contact" class="section-shell section contact-section">
+        <div class="contact-card">
+          <div>
+            <p class="eyebrow">
+              05 / <span data-i18n="contact.label">Contact</span>
+            </p>
+            <h2 data-i18n="contact.title">
+              Have a project or opportunity in mind?
+            </h2>
+            <p data-i18n="contact.text">
+              I'm open to internships, software engineering opportunities and
+              projects where I can build useful, maintainable products.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a class="contact-link" href="mailto:bssdabdou2@gmail.com"
+              ><i class="bi bi-envelope"></i
+              ><span
+                ><span data-i18n="contact.emailLabel">Email me</span
+                ><small>bssdabdou2@gmail.com</small></span
+              ></a
+            >
+            <a class="contact-link" href="tel:+213696602292"
+              ><i class="bi bi-telephone"></i
+              ><span
+                ><span data-i18n="contact.callLabel">Call me</span
+                ><small>+213 696 602 292</small></span
+              ></a
+            >
+            <a
+              class="contact-link"
+              href="https://github.com/Abdelouahad-Boussaid"
+              target="_blank"
+              rel="noopener"
+              ><i class="bi bi-github"></i
+              ><span>GitHub<small>Abdelouahad-Boussaid</small></span></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section-shell">
+      <span>© <span id="year"></span> Boussaid Abdelouahad</span>
+      <span data-i18n="footer.role"
+        >Computer Science · Full-Stack · Mobile</span
+      >
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
